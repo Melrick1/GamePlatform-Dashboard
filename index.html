@@ -3,16 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Game Dashboard</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body>
   <div class="sidebar">
-    <li><a href="#">About</a></li>
-    <li><a href="#">Services</a></li>
-    <li><a href="#">Clients</a></li>
-    <li><a href="#">Contact</a></li> 
+    <div class="profile">
+      <img src="assets/imgs/profile-user.png" alt="user_profile">
+      <h2>Username</h2>
+    </div>
+
+    <div class="nav">
+      <li><a href="#">Store</a></li>
+      <li><a href="#">Library</a></li>
+      <li><a href="#">Achivements</a></li>
+      <li><a href="#">Activity</a></li>
+      <li><a href="#">Settings</a></li> 
+    </div>
   </div>
 
   <main>
@@ -21,15 +29,146 @@
     </div>
 
     <div class="content">
-      <div class="first row">
-        <div class="card primary"></div>
-        <div class="card secondary"></div>
+      <h2>Featured :</h2>
+      <div class="flex-featured">
+        <div class="hero">
+          <img src="https://cdn.akamai.steamstatic.com/steam/apps/1938090/header.jpg?t=1701363599" alt="">
+        </div>
+        <div class="statistic">
+          <h3>Call of Duty</h3>
+          <p>Rp. 1.050.000</p>
+          <div class="rating">
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="no-star">&#9733;</span>
+          </div>  
+        </div>
       </div>
-  
-      <div class="second row">
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
+
+      <h2>Popular Games</h2>
+      <div class="flex-popular">
+        <div class="card">
+          <img src="https://assets.vg247.com/current/2019/02/apex_legends_main_art_2.jpg" alt="">
+          <div class="game-title">
+            <p class="name">Apex Legends</p>
+            <p>Free to Play</p>
+            <div class="rating">
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="no-star">&#9733;</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="https://static1.srcdn.com/wordpress/wp-content/uploads/2022/08/Honkai-Star-Rail-Custom-Poster.jpg" alt="">
+          <div class="game-title">
+            <p class="name">Honkai: Star Rail</p>
+            <p>Free to Play</p>
+            <div class="rating">
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <img src="https://www.giantbomb.com/a/uploads/original/33/338034/3295700-0880306823-EGS_GenshinImpact_miHoYoLimited_S2_1200x1600-c12cdcc2cac330df2185aa58c508e820.jpg" alt="">
+          <div class="game-title">
+            <p class="name">Genshin Impact</p>
+            <p>Free to Play</p>
+            <div class="rating">
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="no-star">&#9733;</span>
+              <span class="no-star">&#9733;</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="https://th.bing.com/th/id/R.e1c09f2bf2c8d88a016330bbb137f820?rik=hCpWQpClLqdIuA&riu=http%3a%2f%2fwww.mobygames.com%2fimages%2fcovers%2fl%2f363275-minecraft-playstation-4-edition-xbox-one-front-cover.png&ehk=D2vvs57l4N1A3d3KwW7Y6xTt6MPk8QaG0meYKw3jOVw%3d&risl=&pid=ImgRaw&r=0" alt="">
+          <div class="game-title">
+            <p class="name">Minecraft</p>
+            <p>Rp 465.000</p>
+            <div class="rating">
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="https://assets.mycast.io/posters/valorant-fan-casting-poster-33618-large.jpg?1586664619" alt="">
+          <div class="game-title">
+            <p class="name">Valorant</p>
+            <p>Free to Play</p>
+            <div class="rating">
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="no-star">&#9733;</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="https://www.mobygames.com/images/covers/l/481741-grand-theft-auto-v-premium-online-edition-xbox-one-front-cover.jpg" alt="">
+          <div class="game-title">
+            <p class="name">GTA V</p>
+            <p>Rp 300.750</p>
+            <div class="rating">
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="https://crossplaygames.b-cdn.net/wp-content/uploads/2023/05/mortal-kombat-1-1_cover-1.jpg" alt="">
+          <div class="game-title">
+            <p class="name">Mortal Kombat 1</p>
+            <p>Rp 849 000</p>
+            <div class="rating">
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="no-star">&#9733;</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="https://lastfm.freetls.fastly.net/i/u/ar0/c8d9d2a0ef37e042ac69cf70f4d394f7.jpg" alt="">
+          <div class="game-title">
+            <p class="name">League of Legends</p>
+            <p>Free to Play</p>
+            <div class="rating">
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="no-star">&#9733;</span>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   </main>
